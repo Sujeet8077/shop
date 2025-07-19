@@ -1,0 +1,84 @@
+ nav{
+  margin: -10px;;
+  padding: -10px;
+  background-image: url(background.jpg);
+  text-align: end;
+  display: flex;
+flex-direction: column;
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
+  box-shadow: inset;
+  font-weight: bold;
+  text-shadow: white;
+align-items: left;
+height: 140px;
+width: auto;
+}
+button{
+  display: inline-block;
+  box-shadow: 0 2px #999;
+  cursor: pointer;
+  border-radius: 6px;
+  height: 40px;
+  width: 80px;
+  font-weight: bold;
+  color: aliceblue;
+  background-color: black;
+  display: inline;
+  
+}
+h1{
+  text-align: left;
+}
+ul{
+  margin: 10px;
+  padding: 10px;
+}
+
+img{
+  border-radius: 40%;
+
+}
+p{
+  text-align: center;
+  
+  text-shadow: 20px;
+  font-size: large;
+  
+}
+.animation{
+  position: relative;
+  animation: mymove 20s infinite; 
+  font-weight: bolder;
+  font-size:50px;
+
+} 
+ @keyframes mymove{
+    from{left:0px}
+    to{left: 1000px;}
+  from {color: red;}
+  to{ color:blue;}
+  to{color:rgb(0, 137, 139);}
+
+  }
+.background{
+  background-image: url(bcimage.jpg);
+  background-size: cover;
+  overflow: hidden;
+  margin-top: 10px;
+  margin-left: -08px;
+  margin-right: -08px;
+}
+.order{
+  font-size:60px;
+  font-weight: bold;
+}
+.choose{
+  background-image:url(style.jpg);
+  background-size: cover; 
+  margin-top: -65px;
+  margin-left: -08px;
+  margin-right: -08px;
+  margin-bottom: -100px;
+}
